@@ -131,3 +131,44 @@ a {
   text-align: center;
   padding: 20px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: white solid 10px;
+  max-width: 50vw;
+}
+
+.callout-watch {
+  text-align: center;
+  margin: 20px;
+}
+
+.apple-logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.sub-heading-watch {
+  letter-spacing: 1px;
+  color: #880808;
+}
+
+#white-bg {
+  background-color: white;
+}
+
+#black-text {
+  color: black;
+}
+
+.grid-images {
+  max-width: 45vw;
+}
